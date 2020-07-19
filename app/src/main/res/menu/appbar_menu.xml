@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/navitem1"
+        android:id="@+id/item1"
+        android:orderInCategory="1"
+        android:icon="@mipmap/mall"
+        android:menuCategory="alternative"/>
+
+    <item
+        android:title="@string/navitem2"
+        android:id="@+id/item2"
+        android:orderInCategory="2"
+        android:icon="@mipmap/mine"
+        android:menuCategory="alternative"/>
+
+    <item
+        android:title="@string/navitem3"
+        android:id="@+id/item3"
+        android:orderInCategory="3"
+        android:icon="@mipmap/mesage"
+        android:menuCategory="alternative"/>
+
+    <item
+        android:title="@string/navitem4"
+        android:id="@+id/item4"
+        android:orderInCategory="4"
+        android:icon="@mipmap/user"
+        android:menuCategory="alternative"/>
+
+</menu>

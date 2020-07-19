@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:background="@drawable/edittext_border"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/login_name"
+        android:autofillHints="">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/lrimageuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/user"
+        android:layout_alignTop="@id/register_name"
+        android:layout_alignBottom="@id/register_name"
+        android:contentDescription="image"
+        android:layout_alignStart="@id/register_name">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/register_pass"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:background="@drawable/edittext_border"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="@string/login_password"
+        android:autofillHints="">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/lrimagepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/lock"
+        android:layout_alignTop="@id/register_pass"
+        android:layout_alignBottom="@id/register_pass"
+        android:contentDescription="image"
+        android:layout_alignStart="@id/register_pass">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/register_passre"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:background="@drawable/edittext_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:paddingStart="50dp"
+        android:hint="@string/register_password_repeat"
+        android:autofillHints="">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/lrimagepassre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/lock"
+        android:layout_alignTop="@id/register_passre"
+        android:layout_alignBottom="@id/register_passre"
+        android:contentDescription="image"
+        android:layout_alignStart="@id/register_passre">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/lrtv"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_centerHorizontal="true"
+        android:gravity="right"
+        android:textColor="@color/colorAccent"
+        android:clickable="true"
+        android:text="使用第三方账号登陆"
+        android:layout_marginTop="400dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/register_but"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="500dp"
+        android:hint="@string/register_but">
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">application</string>
+    <string name="navitem1">商店</string>
+    <string name="navitem2">我的</string>
+    <string name="navitem3">消息</string>
+    <string name="navitem4">用户</string>
+    <string name="tab1">购物</string>
+    <string name="tab2">账单</string>
+    <string name="tab3">统计</string>
+    <string name="tab4">其他</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="login_name">Username</string>
+    <string name="login_password">Password</string>
+    <string name="register_password_repeat">Input password again</string>
+    <string name="loginbut">login</string>
+    <string name="register_but">register</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

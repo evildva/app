@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/lleditname"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:hint="@string/login_name"
+        android:background="@drawable/edittext_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingStart="50dp"
+        android:freezesText="true"
+        android:autofillHints=""
+        android:inputType="text">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/llimageuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/user"
+        android:layout_alignTop="@id/lleditname"
+        android:layout_alignBottom="@id/lleditname"
+        android:contentDescription="image"
+        android:layout_alignStart="@id/lleditname">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/lleditpass"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:autofillHints=""
+        android:background="@drawable/edittext_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:paddingStart="50dp"
+        android:freezesText="true"
+        android:gravity="center_vertical"
+        android:hint="@string/login_password"
+        android:inputType="text">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/llimagepass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/lock"
+        android:layout_alignTop="@id/lleditpass"
+        android:layout_alignBottom="@id/lleditpass"
+        android:contentDescription="image"
+        android:layout_alignStart="@id/lleditpass">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/edittext_height"
+        android:layout_alignStart="@id/lleditpass"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/login_check"
+            android:theme="@style/CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/login_checktips"
+            android:hint="记住我"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_marginStart="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/lltv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_marginStart="100dp"
+            android:textColor="@color/colorAccent"
+            android:clickable="true"
+            android:text="使用第三方账号登陆">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_but"
+        android:layout_width="@dimen/edittext_width"
+        android:layout_height="@dimen/button_height"
+        android:background="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="@string/loginbut">
+
+    </Button>
+
+</RelativeLayout>

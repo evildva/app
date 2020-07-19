@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_tab_height">50dp</dimen>
+    <dimen name="fabpos">10dp</dimen>
+    <dimen name="toastw">200dp</dimen>
+    <dimen name="toasth">200dp</dimen>
+    <dimen name="edittext_height">30dp</dimen>
+    <dimen name="edittext_width">300dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="margin_top">100dp</dimen>
+    <dimen name="shop_vp_height">200dp</dimen>
+    <dimen name="shop_margin">0dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58C5D3</color>
+    <color name="colorPrimaryDark">#03DAC5</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bodyleft">#99EDE5</color>
+    <color name="fabbtnbgc">#ffffff</color>
+    <color name="nav">#ffffff</color>
+    <color name="toastbg">#acadae</color>
+    <color name="toasttc">#454242</color>
+    <color name="navcolor">#99EDE5</color>
+    <color name="check">#03DAC5</color>
+    <color name="uncheck">#acadae</color>
+</resources>
